@@ -1,8 +1,11 @@
 
+.skills {
+  margin: 50px auto;
+}
+
 .skills img {
   width: 100px;
   margin: 5px;
-  float: left;
   transition: all 0.3s ease-in-out;
   filter: grayscale(100%);
   opacity: 0.6;
