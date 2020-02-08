@@ -4,3 +4,6 @@
 
 ## Screenshot
 ![](demo.gif)
+
+## Contributing
+Pull requests are welcome. For major changes please open an issue and discuss your suggestions.
