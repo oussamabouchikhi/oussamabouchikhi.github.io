@@ -1,17 +1,9 @@
 
 .skills {
-  margin: 50px auto;
+  display: flex;
+  justify-content: center;
 }
 
 .skills img {
-  width: 100px;
-  margin: 5px;
-  transition: all 0.3s ease-in-out;
-  filter: grayscale(100%);
-  opacity: 0.6;
-}
-
-.skills img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
+  width: 90%;
 }
