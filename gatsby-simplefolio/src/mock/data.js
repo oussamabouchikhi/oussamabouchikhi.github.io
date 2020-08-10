@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'hello, my name is',
+  title: 'hi, my name is',
   name: 'Oussama Bouchikhi',
   subtitle: 'I am a Fullstack Web Developer',
   cta: '',
@@ -18,8 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    'Let me introduce my self, I am a computer science student at University of Oran 1 also a member in a scientific club called Team Open Minds, our slogan is "Learn, Code, Share" so we are open source contributers and we love to share our knowledge with others.',
+  paragraphTwo:
+    'My big intrests in development is mostly web dev and little bit of mobile with Flutter. I am an open source enthusiast, long life learner and I love to explore new challenging stuff',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -32,7 +34,7 @@ export const projectsData = [
     title: 'CRWN Clothing',
     info: 'React app',
     info2: 'fullstack',
-    url: 'malabis.herokuapp.com/',
+    url: 'https://malabis.herokuapp.com/',
     repo: 'https://github.com/oussamabouchikhi/crwn-clothing', // if no repo, the button will not show up
   },
   {
@@ -41,7 +43,7 @@ export const projectsData = [
     title: 'Smart Brain',
     info: 'Face detection app built using React',
     info2: 'Clarifai api',
-    url: 'smartterbrain.herokuapp.com/',
+    url: 'https://smartterbrain.herokuapp.com/',
     repo: 'https://github.com/oussamabouchikhi/smartbrain', // if no repo, the button will not show up
   },
   {
@@ -51,7 +53,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/oussamabouchikhi/', // if no repo, the button will not show up
   },
 ];
 
@@ -67,32 +69,32 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: 'http://twitter.com//oussth3boss',
+      name: 'fa fa-twitter',
+      url: 'http://twitter.com/oussth3boss',
     },
     {
       id: nanoid(),
-      name: 'Freelancer',
-      url: 'https://www.freelancer.com/u/oussamabouchikhi',
+      name: 'fa fa-stack-overflow',
+      url: 'https://stackoverflow.com/users/13557906/oussama-bouchikhi',
     },
     {
       id: nanoid(),
-      name: 'Upwork',
-      url: 'https://www.upwork.com/o/profiles/users/~01f42213ee8a3771ac/',
+      name: 'fa fa-facebook',
+      url: 'https://www.facebook.com/oussama.bouchikhi.98',
     },
     {
       id: nanoid(),
-      name: 'Fiverr',
-      url: 'https://www.fiverr.com/oussama700',
+      name: 'fa fa-instagram',
+      url: 'https://www.instagram.com/ousstheboss/',
     },
     {
       id: nanoid(),
-      name: 'linkedin',
+      name: 'fa fa-linkedin',
       url: 'https://www.linkedin.com/in/oussama-bouchikhi-49a0b6193/',
     },
     {
       id: nanoid(),
-      name: 'github',
+      name: 'fa fa-github',
       url: 'https://github.com/oussamabouchikhi',
     },
   ],

@@ -32,4 +32,5 @@ module.exports = {
       },
     },
   ],
+  pathPrefix: `/oussamabouchikhi.github.io`,
 };
