@@ -1774,20 +1774,16 @@ header .back-button i {
 	border-right: 2px solid #e1e1e1;
 	padding-right: 10px;
 	padding-left: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #F5AE51 ;
+	font-size: 14px;
 }
 
 .single-blog .blog-category li:last-child {
 	border: none;
 	padding-right: 0px;
-}
-
-.single-blog .blog-category li a {
-	display: inline-block;
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 1px;
-	font-size: 14px;
-	color: #e1e1e1;
 }
 
 .single-blog .blog-meta {
@@ -1939,4 +1935,10 @@ header .back-button i {
 	background:none!important;
 	height:500px;
 	width:100%;
+}
+.blogs-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
